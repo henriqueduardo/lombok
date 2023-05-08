@@ -1,0 +1,28 @@
+.card-destinos {
+    width: 300px;
+}
+
+.destino-img {
+    height: 200px;
+    border-radius: 6px 6px 0px 0px;
+    object-fit: cover;
+}
+
+.desc-destinos {
+    font-size: 10px;
+}
+
+.btn-detalhes {
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+    width: 120px;
+}
+
+@media (max-width: 500px) {
+    .card-destinos {
+        width: auto;
+    }
+}

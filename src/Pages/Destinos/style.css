@@ -1,0 +1,29 @@
+.destinos-bg {
+    height: 715px;
+    background: url(../../img/destinos-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.destinos-title {
+    font-size: 3rem;
+    padding-left: 10px;
+    padding-right: 16px;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .destinos-bg {
+        height: auto;
+    }
+    .destinos-title {
+        font-size: 2.3rem;
+    }
+    .destinos-box {
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+    }
+}

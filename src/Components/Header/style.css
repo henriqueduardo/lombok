@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  max-width: 1366px;
+}
+
+.menu {
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    font-size: 14px;
+  }
+  .menu {
+    font-size: 10px;
+  }
+  .gap-10 {
+    gap: 10px;
+  }
+  .px-5, .py-3, .px-3 {
+    padding: 10px;
+  }
+}

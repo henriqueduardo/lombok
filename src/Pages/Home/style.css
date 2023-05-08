@@ -1,0 +1,333 @@
+.main-background {
+    background: url(../../img/banner2.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+ 
+.highlight-p {
+    font-size: 18px;
+}
+  
+.text-hero {
+    font-size: 9rem;
+}
+  
+.line-height {
+    line-height: 120px;
+}
+
+.desc-relative {
+    position: relative;
+    top: 182px;
+}
+
+.desc-text  {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.desc-1 {
+    width: 350px;
+    padding: 10px;
+    letter-spacing: -0.75px;
+    font-size: 2rem;
+}
+
+.desc-1 h2 {
+    margin-left: 25px;
+}
+
+.desc-2 {
+    width: 450px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: -0.75px;
+    font-size: 12px;
+}
+
+.thumb {
+    border-radius: 0px;
+    margin-left: 25px;
+}
+
+.btn-desc {
+    font-size: 50px;
+}
+
+.lombok-desc-bg {
+    height: auto;
+}
+
+.lombok-title {
+    font-size: 5rem;
+}
+
+.lombok-img {
+    width: 150px;
+    height: 300px;
+    position: relative;
+}
+
+.lombok-img-top-100 {
+    margin-top: 100px;
+}
+
+.lombok-img-top-200 {
+    margin-top: 200px;
+}
+
+.lombok-text-box {
+    width: 900px;
+    font-size: 20px;
+}
+
+.lombok-letras, .lombok-letras-2, .lombok-letras-3, .lombok-letras-4, .lombok-letras-5, .lombok-letras-6 {
+    position: relative;
+}
+
+.lombok-letras::before {
+    content: 'l';
+    position: absolute;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: black;
+    z-index: 999;
+    color: #ffffffc2;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lombok-letras-2::before {
+    content: 'o';
+    position: absolute;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: black;
+    z-index: 999;
+    color: #ffffffc2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lombok-letras-2::before {
+    content: 'o';
+    position: absolute;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: black;
+    z-index: 999;
+    color: #ffffffc2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lombok-letras-3::before {
+    content: 'm';
+    position: absolute;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: black;
+    z-index: 999;
+    color: #ffffffc2;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lombok-letras-4::before {
+    content: 'b';
+    position: absolute;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: black;
+    z-index: 999;
+    color: #ffffffc2;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lombok-letras-5::before {
+    content: 'o';
+    position: absolute;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: black;
+    z-index: 999;
+    color: #ffffffc2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lombok-letras-6::before {
+    content: 'k';
+    position: absolute;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: black;
+    z-index: 999;
+    color: #ffffffc2;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-h {
+    height: 400px !important;
+}
+
+.carousel-img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.razoes-title {
+    font-size: 4rem;
+    line-height: 60px;
+    letter-spacing: -.075px;
+}
+
+.razoes-img {
+    width: 50%;
+}
+
+.razoes-box {
+    border-left: 2px solid lightgray;
+    padding-left: 10px;
+}
+
+.razoes-box h3 {
+    font-size: 2rem;
+}
+
+.planos-title-1 {
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: -0.75px;
+    margin-bottom: 40px;
+}
+
+.planos-text {
+    width: 370px;
+    height: 500px;
+}
+
+.planos-title-2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.planos-img {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.planos-desc {
+    position: absolute;
+    font-size: 35px;
+    color: #fff;
+    font-weight: bolder;
+    bottom: 60px;
+    margin-left: 30px;
+}
+
+.planos-desc p {
+    line-height: 34px;
+}
+
+.btn-planos {
+    font-size: 14px;
+    margin-top: 20px;
+    width: 100px;
+    padding: 14px;
+}
+
+@media (max-width: 500px) {
+    .highlight-p {
+        font-size: 14px;
+    }
+    .left-3 {
+        left: 6px;
+    }
+    .text-hero {
+        font-size: 5rem;
+        line-height: 70px;
+    }
+    .desc-relative {
+        top: 322px;
+    }
+    .desc-1 {
+        width: 300px;
+        font-size: 18px;
+    }
+    .desc-2 {
+        width: 350px;
+        font-size: 14px;
+    }
+    .desc-text {
+        font-size: 10px;
+    }
+    .btn-desc {
+        font-size: 38px;
+    }
+    .lombok-title {
+        font-size: 3rem;
+    }
+    .lombok-img {
+        width: 50px;
+    }
+    .lombok-letras::before, .lombok-letras-2::before, .lombok-letras-3::before, .lombok-letras-4::before, .lombok-letras-5::before, .lombok-letras-6::before {
+        font-size: 3rem;
+    }
+    .lombok-text-box {
+        width: auto;
+        font-size: 14px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .razoes-title {
+        font-size: 1.5rem;
+        line-height: 25px;
+    }
+    .justify-between {
+        justify-content: space-evenly;
+    }
+    .planos-title-1 {
+        font-size: 3rem;
+    }
+    .planos-title-2 {
+        font-size: 2.3rem;
+    }
+    .planos-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .planos-img {
+        margin: 0 auto;
+    }
+    .planos-text {
+        width: 300px;
+        margin: 0 auto;
+        height: 300px;
+    }
+    .planos-text p {
+        font-size: 1.4rem;
+    }
+    .planos-desc {
+        left: 60px;
+    }
+}
